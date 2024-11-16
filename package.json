@@ -1,0 +1,27 @@
+{
+  "name": "node-starter-template",
+  "version": "1.0.0",
+  "main": "/src/index.ts",
+  "repository": "git@github.com:henryhobhouse/node-starter-template.git",
+  "author": "Henry Hobhouse <henry@hob.house>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "test:unit": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.9.0",
+    "@typescript-eslint/eslint-plugin": "^8.14.0",
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-unicorn": "^56.0.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.3.3",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
