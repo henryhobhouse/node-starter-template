@@ -7,6 +7,8 @@ const config: Config = {
   transform: {
     '^.+\\.(t|j)sx?$': '@swc-node/jest',
   },
+  extensionsToTreatAsEsm: ['.ts'],
+  collectCoverageFrom: ['./src/**'],
 };
 
 export default config;

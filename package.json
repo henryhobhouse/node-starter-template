@@ -9,7 +9,7 @@
   "scripts": {
     "build": "swc src --out-dir build",
     "typeCheck": "tsc",
-    "test:unit": "jest",
+    "test:unit": "node --experimental-vm-modules ./node_modules/jest/bin/jest.js",
     "test": "yarn test:unit",
     "start": "SWCRC=true node --loader @swc-node/register/esm src/index.ts",
     "dev": "nodemon --exec 'SWCRC=true node --loader @swc-node/register/esm' src/index.ts",
