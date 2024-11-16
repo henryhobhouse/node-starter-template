@@ -3,18 +3,23 @@
   "include": ["src"],
   "exclude": ["node_modules", "build"],
   "compilerOptions": {
-    "lib": ["es2023"],
-    "module": "node16",
-    "target": "es2022",
+    "lib": ["ESNext"],
+    "module": "ESNext",
+    "target": "ESNext",
     "strict": true,
     "esModuleInterop": true,
+    "isolatedModules": true,
     "skipLibCheck": true,
-    "moduleResolution": "node16",
+    "moduleResolution": "bundler",
     "sourceMap": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "outDir": "build",
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noUnusedLocals": false,
     "noUncheckedIndexedAccess": true,
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "allowSyntheticDefaultImports": true
   }
 }
