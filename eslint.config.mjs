@@ -23,6 +23,7 @@ export default [
       unicorn: eslintPluginUnicorn,
     },
     rules: {
+      'import/no-unresolved': 'off',
       'import/order': [
         'error',
         {
