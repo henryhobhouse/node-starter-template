@@ -134,4 +134,5 @@ build
 # SWC cache
 .swc/
 
-.vscode/
+.vscode/*
+!.vscode/launch.json
