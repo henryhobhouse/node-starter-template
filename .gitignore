@@ -133,3 +133,5 @@ build
 
 # SWC cache
 .swc/
+
+.vscode/
