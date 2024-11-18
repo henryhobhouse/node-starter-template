@@ -7,7 +7,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "build": "bun build ./src/index.ts --outdir ./build --target node",
+    "build": "bun build --outdir ./build --entrypoints ./src/index.ts --target node --entry-naming [dir]/[name].mjs",
     "typeCheck": "tsc",
     "test": "bun test --coverage",
     "start": "bun run src/index.ts",
