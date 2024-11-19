@@ -2,7 +2,7 @@
 
 import eslintPluginUnicorn from 'eslint-plugin-unicorn';
 import eslint from '@eslint/js';
-// eslint-disable-next-line import/no-unresolved
+
 import tsEslint from 'typescript-eslint';
 import * as importPlugin from 'eslint-plugin-import';
 import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
